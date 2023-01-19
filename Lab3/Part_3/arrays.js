@@ -51,6 +51,7 @@ console.log(arr.findIndex(isEven));//1
 forEach() method:method calls a function for each element in an array.
   method does not execute the function for empty elements.
 */
+
 arr.forEach(element=>console.log("ELement is : ",element)); //ELement is :  3
 
 /*
