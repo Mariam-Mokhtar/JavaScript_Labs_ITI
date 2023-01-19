@@ -74,6 +74,7 @@ does not change the original array.
 arr = [4, 9, 16, 25];
 newArr = arr.map(Math.sqrt) //[2,3,4,5]
 console.log(newArr);
+
 /*
 8-
 fill() method:method fills specified elements in an array with a value.
