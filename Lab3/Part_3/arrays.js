@@ -15,7 +15,6 @@ function isEven(num) {
     return num % 2 == 0;
 }
 
-
 /*
 2-
   filter() method:method creates a new array filled with elements that pass a test provided by a function.
