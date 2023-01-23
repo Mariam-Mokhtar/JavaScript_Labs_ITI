@@ -218,11 +218,11 @@ function display() {
                     id = Number(id);
                     if (!isNaN(id)) {
                         if (office.getEmployee(id)) {
-                            var ans = confirm("Are you sure to delete this employee?");
+                            var ans = confirm("Are you sure to fire this employee?");
                             if (ans) {
                                 office.fire(id);
                                 alert(`Employee with id : ${id} 
-                                deleted sucessfully`);
+                                fired `);
                             }
                         }
                     }
