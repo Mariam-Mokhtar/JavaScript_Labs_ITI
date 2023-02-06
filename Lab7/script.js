@@ -1,4 +1,4 @@
-document.body.style.backgroundColor="smoke-white";
+document.body.style.backgroundColor="whitesmoke";
 (function () {
     'use strict'
     // bootstrap java script vaildation 
@@ -29,7 +29,7 @@ document.body.style.backgroundColor="smoke-white";
                   document.getElementById("sucess").classList.add("d-none");
                 }
                 }
-                
+
                 form.classList.add('was-validated');
                 event.preventDefault();
              
