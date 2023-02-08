@@ -1,0 +1,11 @@
+
+@media (max-width: 768px) { 
+    #screen{
+        width: 90%;
+    }
+ }
+ @media (min-width: 769px) { 
+    #screen{
+        width:75%;
+    }
+ }
