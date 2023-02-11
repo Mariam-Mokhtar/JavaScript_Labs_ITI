@@ -16,3 +16,13 @@ i{
   color: white;
   font-size: 28px;
 }
+@media (max-width: 768px) { 
+  #myDiv{
+      width: 90%;
+  }
+}
+@media (min-width: 769px) { 
+  #myDiv{
+      width:50%;
+  }
+}

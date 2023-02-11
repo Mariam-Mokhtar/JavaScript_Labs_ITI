@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slide Show</title>
+    <title>Digital Clock</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
     <style>
@@ -15,8 +15,9 @@
 </head>
 
 <body>
-    <section class="container d-flex align-items-center my-5 mx-auto p-3" style=" height: 500px;">
-        <div class="container w-50 m-auto p-4 shadow-lg  rounded-1 bg-white">
+    
+    <section class="container d-flex align-items-center mt-5 mx-auto p-3" style=" height: 400px;">
+        <div class="container m-auto p-4 shadow-lg rounded-1 bg-white d-block" id="myDiv">
             <div class="card  m-auto text-center">
                 <div class="card-body" style="background-color: #7B8FA1;">
                     <div class="d-flex justify-content-evenly mb-3 text-white-50 fw-bold">
@@ -37,7 +38,7 @@
             </div>
         </div>
         <!-- Modal -->
-        <div class="modal modal-lg fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        <div class="modal model-sm modal-md-lg fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -93,6 +94,8 @@
             </div>
         </div>
     </section>
+    <h2 style="font-family:'Dancing Script', cursive; font-weight: bold; " class="text-white d-block text-center mb-4 fs-1">Digital Clock</h2>
+
     <script src="../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
