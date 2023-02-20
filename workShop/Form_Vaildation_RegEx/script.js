@@ -42,19 +42,6 @@ for (var input of inputs) {
         }
     });
 }
-
-// function repeatedPassword(pass, repeatedpass) {
-//     if (pass.value === repeatedpass.value) {
-//         console.log(pass);
-//         console.log(repeatedpass);
-//         repeatedpass.classList.remove("is-invalid")
-//         repeatedpass.classList.add("is-valid")
-//     }
-//     else {
-//         repeatedpass.classList.add("is-invalid")
-//         repeatedpass.classList.remove("is-valid")
-//     }
-// }
 function vaildatePassStyle(pass) {
     if (containsUppercase(pass)) {
         replace(".big-letter", true)
@@ -83,7 +70,7 @@ function containsUppercase(str) {
     return /[A-Z]/.test(str);
 }
 function containsSpecialChar(str) {
-    return /[@$!#%_*?&]/.test(str);
+    return /[@!#%&_]/.test(str);
 }
 function containsDigit(str) {
     return /[\d]/.test(str);
